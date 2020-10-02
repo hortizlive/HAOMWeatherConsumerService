@@ -9,7 +9,7 @@ it is a visual studio 2019 Solution. you can run it with the Visual Studio 2019 
 
 In the configuration file appsettings.json you can set:
 
-     1.- the CityID (to find the CityID i've included the **city.list.json** , this file is not necesary to build the project and cant be excluded), current configuration is for Dallas, TX, USA
+     1.- the CityID (to find the CityID i've included the **city.list.json** , this file is not necesary to build the project and can be excluded from the proyect, it was downloaded from the OWM site.), current configuration is for Dallas, TX, USA
      2.- Polling Period, current config is to poll every 5 minutes.
      3.- The destination Folder, actual configuration is **C:\Temp** you can change it and must ensure the user running the service has write access to the folder or the application will be failing every time it tries to create or write the CSV file.
      4.- Units to Report, actual configuration is **Imperial** (Farenheit)
