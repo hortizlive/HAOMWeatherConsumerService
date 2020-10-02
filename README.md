@@ -15,7 +15,7 @@ In the configuration file appsettings.json you can set:
      4.- Units to Report, actual configuration is **Imperial** (Farenheit)
 
 
-The included APIKey is a free subscription and it will be valid until Oct,15,2020
+The included APIKey is invalid, so you need to get one APIKey in https://openweathermap.org/, a free susbcription will do the job for testing purposes, you'd need to replace value of the  "API_Key":"PUT THE KEY HERE", in the appsettings.json file. with the provided value,(**new account api keys in OpenWeatherMap take up to 2 hours to get activated**)
 
 To install the project as a service:
 
